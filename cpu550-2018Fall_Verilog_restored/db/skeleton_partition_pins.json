@@ -1,0 +1,289 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "lcd_data[0]",
+					"strict" : false
+				},
+				{
+					"name" : "lcd_data[1]",
+					"strict" : false
+				},
+				{
+					"name" : "lcd_data[2]",
+					"strict" : false
+				},
+				{
+					"name" : "lcd_data[3]",
+					"strict" : false
+				},
+				{
+					"name" : "lcd_data[4]",
+					"strict" : false
+				},
+				{
+					"name" : "lcd_data[5]",
+					"strict" : false
+				},
+				{
+					"name" : "lcd_data[6]",
+					"strict" : false
+				},
+				{
+					"name" : "lcd_data[7]",
+					"strict" : false
+				},
+				{
+					"name" : "lcd_en",
+					"strict" : false
+				},
+				{
+					"name" : "lcd_rs",
+					"strict" : false
+				},
+				{
+					"name" : "Hex07[0]",
+					"strict" : false
+				},
+				{
+					"name" : "Hex07[1]",
+					"strict" : false
+				},
+				{
+					"name" : "Hex07[2]",
+					"strict" : false
+				},
+				{
+					"name" : "Hex07[3]",
+					"strict" : false
+				},
+				{
+					"name" : "Hex07[4]",
+					"strict" : false
+				},
+				{
+					"name" : "Hex07[5]",
+					"strict" : false
+				},
+				{
+					"name" : "Hex07[6]",
+					"strict" : false
+				},
+				{
+					"name" : "Hex06[0]",
+					"strict" : false
+				},
+				{
+					"name" : "Hex06[1]",
+					"strict" : false
+				},
+				{
+					"name" : "Hex06[2]",
+					"strict" : false
+				},
+				{
+					"name" : "Hex06[3]",
+					"strict" : false
+				},
+				{
+					"name" : "Hex06[4]",
+					"strict" : false
+				},
+				{
+					"name" : "Hex06[5]",
+					"strict" : false
+				},
+				{
+					"name" : "Hex06[6]",
+					"strict" : false
+				},
+				{
+					"name" : "Hex05[0]",
+					"strict" : false
+				},
+				{
+					"name" : "Hex05[1]",
+					"strict" : false
+				},
+				{
+					"name" : "Hex05[2]",
+					"strict" : false
+				},
+				{
+					"name" : "Hex05[3]",
+					"strict" : false
+				},
+				{
+					"name" : "Hex05[4]",
+					"strict" : false
+				},
+				{
+					"name" : "Hex05[5]",
+					"strict" : false
+				},
+				{
+					"name" : "Hex05[6]",
+					"strict" : false
+				},
+				{
+					"name" : "Hex04[0]",
+					"strict" : false
+				},
+				{
+					"name" : "Hex04[1]",
+					"strict" : false
+				},
+				{
+					"name" : "Hex04[2]",
+					"strict" : false
+				},
+				{
+					"name" : "Hex04[3]",
+					"strict" : false
+				},
+				{
+					"name" : "Hex04[4]",
+					"strict" : false
+				},
+				{
+					"name" : "Hex04[5]",
+					"strict" : false
+				},
+				{
+					"name" : "Hex04[6]",
+					"strict" : false
+				},
+				{
+					"name" : "Hex03[0]",
+					"strict" : false
+				},
+				{
+					"name" : "Hex03[1]",
+					"strict" : false
+				},
+				{
+					"name" : "Hex03[2]",
+					"strict" : false
+				},
+				{
+					"name" : "Hex03[3]",
+					"strict" : false
+				},
+				{
+					"name" : "Hex03[4]",
+					"strict" : false
+				},
+				{
+					"name" : "Hex03[5]",
+					"strict" : false
+				},
+				{
+					"name" : "Hex02[0]",
+					"strict" : false
+				},
+				{
+					"name" : "Hex02[1]",
+					"strict" : false
+				},
+				{
+					"name" : "Hex02[2]",
+					"strict" : false
+				},
+				{
+					"name" : "Hex02[3]",
+					"strict" : false
+				},
+				{
+					"name" : "Hex02[4]",
+					"strict" : false
+				},
+				{
+					"name" : "Hex02[5]",
+					"strict" : false
+				},
+				{
+					"name" : "Hex02[6]",
+					"strict" : false
+				},
+				{
+					"name" : "Hex01[0]",
+					"strict" : false
+				},
+				{
+					"name" : "Hex01[1]",
+					"strict" : false
+				},
+				{
+					"name" : "Hex01[2]",
+					"strict" : false
+				},
+				{
+					"name" : "Hex01[3]",
+					"strict" : false
+				},
+				{
+					"name" : "Hex01[4]",
+					"strict" : false
+				},
+				{
+					"name" : "Hex01[5]",
+					"strict" : false
+				},
+				{
+					"name" : "Hex01[6]",
+					"strict" : false
+				},
+				{
+					"name" : "Hex00[0]",
+					"strict" : false
+				},
+				{
+					"name" : "Hex00[1]",
+					"strict" : false
+				},
+				{
+					"name" : "Hex00[2]",
+					"strict" : false
+				},
+				{
+					"name" : "Hex00[3]",
+					"strict" : false
+				},
+				{
+					"name" : "Hex00[4]",
+					"strict" : false
+				},
+				{
+					"name" : "Hex00[5]",
+					"strict" : false
+				},
+				{
+					"name" : "Hex00[6]",
+					"strict" : false
+				},
+				{
+					"name" : "sw1",
+					"strict" : false
+				},
+				{
+					"name" : "sw0",
+					"strict" : false
+				},
+				{
+					"name" : "resetn",
+					"strict" : false
+				},
+				{
+					"name" : "ps2_clock",
+					"strict" : false
+				},
+				{
+					"name" : "ps2_data",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

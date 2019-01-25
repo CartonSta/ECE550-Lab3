@@ -1,0 +1,1 @@
+Warning (10268): Verilog HDL information at InsCounter.v(19): always construct contains both blocking and non-blocking assignments File: C:/Users/DHL/Desktop/cpu550-2018Fall_Verilog_restored/InsCounter.v Line: 19

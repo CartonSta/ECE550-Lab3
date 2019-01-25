@@ -1,0 +1,784 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/DHL/Desktop/cpu550-2018Fall_Verilog_restored/simulation/modelsim
+Eadder_cs
+Z1 w1476638556
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z4 8C:/Users/DHL/Desktop/cpu550-2018Fall_Verilog_restored/adder_cs.vhd
+Z5 FC:/Users/DHL/Desktop/cpu550-2018Fall_Verilog_restored/adder_cs.vhd
+l0
+L7
+VnhFNAo6XzMUEK^:=]JeBm0
+!s100 D5R^];Kc6V<ZanP``:@]f1
+Z6 OV;C;10.5b;63
+31
+Z7 !s110 1542217740
+!i10b 1
+Z8 !s108 1542217740.000000
+Z9 !s90 -reportprogress|300|-93|-work|work|C:/Users/DHL/Desktop/cpu550-2018Fall_Verilog_restored/adder_cs.vhd|
+Z10 !s107 C:/Users/DHL/Desktop/cpu550-2018Fall_Verilog_restored/adder_cs.vhd|
+!i113 1
+Z11 o-93 -work work
+Z12 tExplicit 1 CvgOpt 0
+Astructure
+R2
+R3
+DEx4 work 8 adder_cs 0 22 nhFNAo6XzMUEK^:=]JeBm0
+l36
+L17
+V][>lW3j5V7lV4iPnX=a_53
+!s100 oI2PMX3nf@36<ZCJ5_^o02
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Eadder_rc
+Z13 w1476638551
+R2
+R3
+R0
+Z14 8C:/Users/DHL/Desktop/cpu550-2018Fall_Verilog_restored/adder_rc.vhd
+Z15 FC:/Users/DHL/Desktop/cpu550-2018Fall_Verilog_restored/adder_rc.vhd
+l0
+L7
+VWNGRB[^^Ra9zI4c]_D69S2
+!s100 `[?0I`Z5kk77hJn]LDSPd2
+R6
+31
+Z16 !s110 1542217739
+!i10b 1
+Z17 !s108 1542217739.000000
+Z18 !s90 -reportprogress|300|-93|-work|work|C:/Users/DHL/Desktop/cpu550-2018Fall_Verilog_restored/adder_rc.vhd|
+Z19 !s107 C:/Users/DHL/Desktop/cpu550-2018Fall_Verilog_restored/adder_rc.vhd|
+!i113 1
+R11
+R12
+Astructure
+R2
+R3
+DEx4 work 8 adder_rc 0 22 WNGRB[^^Ra9zI4c]_D69S2
+l20
+L17
+V62EPkWC82TI5fC<lnnEd:2
+!s100 XV`2F_K2P6`GgJJdLQ5L@1
+R6
+31
+R16
+!i10b 1
+R17
+R18
+R19
+!i113 1
+R11
+R12
+Ealu
+Z20 w1476591428
+R2
+R3
+R0
+Z21 8C:/Users/DHL/Desktop/cpu550-2018Fall_Verilog_restored/alu.vhd
+Z22 FC:/Users/DHL/Desktop/cpu550-2018Fall_Verilog_restored/alu.vhd
+l0
+L16
+VHNi9DV^fjFV7RSN]a7o493
+!s100 ^U4c5EC@R:PG6NEjzj`4N0
+R6
+31
+Z23 !s110 1542217738
+!i10b 1
+Z24 !s108 1542217738.000000
+Z25 !s90 -reportprogress|300|-93|-work|work|C:/Users/DHL/Desktop/cpu550-2018Fall_Verilog_restored/alu.vhd|
+Z26 !s107 C:/Users/DHL/Desktop/cpu550-2018Fall_Verilog_restored/alu.vhd|
+!i113 1
+R11
+R12
+Astructure
+R2
+R3
+DEx4 work 3 alu 0 22 HNi9DV^fjFV7RSN]a7o493
+l44
+L24
+Vk4RA;ELgEnee]l>hR3_5Z0
+!s100 jQB74X]zgkKGF8;9`Ogn[3
+R6
+31
+R23
+!i10b 1
+R24
+R25
+R26
+!i113 1
+R11
+R12
+vcontrol
+R23
+!i10b 1
+!s100 Fd@J[R;W62khP?zK[foAl3
+I^j1h;>1cjT5QC9m0l7>Nh3
+Z27 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z28 w1542217436
+8C:/Users/DHL/Desktop/cpu550-2018Fall_Verilog_restored/control.v
+FC:/Users/DHL/Desktop/cpu550-2018Fall_Verilog_restored/control.v
+L0 13
+Z29 OV;L;10.5b;63
+r1
+!s85 0
+31
+R24
+!s107 C:/Users/DHL/Desktop/cpu550-2018Fall_Verilog_restored/control.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/DHL/Desktop/cpu550-2018Fall_Verilog_restored|C:/Users/DHL/Desktop/cpu550-2018Fall_Verilog_restored/control.v|
+!i113 1
+Z30 o-vlog01compat -work work
+Z31 !s92 -vlog01compat -work work +incdir+C:/Users/DHL/Desktop/cpu550-2018Fall_Verilog_restored
+Z32 tCvgOpt 0
+Edecoder5to32
+Z33 w1476638413
+R2
+R3
+R0
+Z34 8C:/Users/DHL/Desktop/cpu550-2018Fall_Verilog_restored/decoder5to32.vhd
+Z35 FC:/Users/DHL/Desktop/cpu550-2018Fall_Verilog_restored/decoder5to32.vhd
+l0
+L7
+VQ[oE1c^Wi?AFa^JS@kQVI3
+!s100 m>O[d_c82Y4ZJl6X@@HT20
+R6
+31
+R23
+!i10b 1
+R24
+Z36 !s90 -reportprogress|300|-93|-work|work|C:/Users/DHL/Desktop/cpu550-2018Fall_Verilog_restored/decoder5to32.vhd|
+Z37 !s107 C:/Users/DHL/Desktop/cpu550-2018Fall_Verilog_restored/decoder5to32.vhd|
+!i113 1
+R11
+R12
+Astructure
+R2
+R3
+DEx4 work 12 decoder5to32 0 22 Q[oE1c^Wi?AFa^JS@kQVI3
+l13
+L12
+V;AOaS_4?X^4oWP=zHSPgE3
+!s100 `Q?V246oS6SS4>SSifkO;1
+R6
+31
+R23
+!i10b 1
+R24
+R36
+R37
+!i113 1
+R11
+R12
+Edmem
+Z38 w1542215099
+Z39 DPx9 altera_mf 20 altera_mf_components 0 22 7RjT1Xb9^`L[coRHZN<9k2
+R2
+R3
+R0
+Z40 8C:/Users/DHL/Desktop/cpu550-2018Fall_Verilog_restored/dmem.vhd
+Z41 FC:/Users/DHL/Desktop/cpu550-2018Fall_Verilog_restored/dmem.vhd
+l0
+L43
+VE0TTWRYX4K^9o;<YZAC>m3
+!s100 d?O>jgfR0UGD6_nDdA<Tb1
+R6
+31
+R23
+!i10b 1
+R24
+Z42 !s90 -reportprogress|300|-93|-work|work|C:/Users/DHL/Desktop/cpu550-2018Fall_Verilog_restored/dmem.vhd|
+Z43 !s107 C:/Users/DHL/Desktop/cpu550-2018Fall_Verilog_restored/dmem.vhd|
+!i113 1
+R11
+R12
+Asyn
+R39
+R2
+R3
+DEx4 work 4 dmem 0 22 E0TTWRYX4K^9o;<YZAC>m3
+l59
+L55
+Vm9Xm1H0A[B:;JKWNfo_?N1
+!s100 zaN<lG9;:<bS03=fS;?zY0
+R6
+31
+R23
+!i10b 1
+R24
+R42
+R43
+!i113 1
+R11
+R12
+Eimem
+R38
+R39
+R2
+R3
+R0
+Z44 8C:/Users/DHL/Desktop/cpu550-2018Fall_Verilog_restored/imem.vhd
+Z45 FC:/Users/DHL/Desktop/cpu550-2018Fall_Verilog_restored/imem.vhd
+l0
+L43
+V63LT=75^mdjI`Fl8kFRj;3
+!s100 g:0T`KDSV=iIZ96SG2<BG1
+R6
+31
+R23
+!i10b 1
+R24
+Z46 !s90 -reportprogress|300|-93|-work|work|C:/Users/DHL/Desktop/cpu550-2018Fall_Verilog_restored/imem.vhd|
+Z47 !s107 C:/Users/DHL/Desktop/cpu550-2018Fall_Verilog_restored/imem.vhd|
+!i113 1
+R11
+R12
+Asyn
+R39
+R2
+R3
+DEx4 work 4 imem 0 22 63LT=75^mdjI`Fl8kFRj;3
+l58
+L54
+VMYO1`c8aE?:E8T[Nf`S_63
+!s100 5d4@e8J;>Qh0zE`nllCi=0
+R6
+31
+R23
+!i10b 1
+R24
+R46
+R47
+!i113 1
+R11
+R12
+Elcd
+Z48 w1476638425
+Z49 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z50 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+R2
+R3
+R0
+Z51 8C:/Users/DHL/Desktop/cpu550-2018Fall_Verilog_restored/lcd.vhd
+Z52 FC:/Users/DHL/Desktop/cpu550-2018Fall_Verilog_restored/lcd.vhd
+l0
+L9
+VYo:<6b0nJ=5=lZll4aJ;32
+!s100 XdQWV2gLH0Xc;DhjR27bT0
+R6
+31
+R16
+!i10b 1
+R17
+Z53 !s90 -reportprogress|300|-93|-work|work|C:/Users/DHL/Desktop/cpu550-2018Fall_Verilog_restored/lcd.vhd|
+Z54 !s107 C:/Users/DHL/Desktop/cpu550-2018Fall_Verilog_restored/lcd.vhd|
+!i113 1
+R11
+R12
+Aa
+R49
+R50
+R2
+R3
+DEx4 work 3 lcd 0 22 Yo:<6b0nJ=5=lZll4aJ;32
+l33
+L19
+V?l[Oh?dD=63<@iNUaZZAl1
+!s100 oMjIPXdlX9F<I2SX<fg4F1
+R6
+31
+R16
+!i10b 1
+R17
+R53
+R54
+!i113 1
+R11
+R12
+Emux
+Z55 w1476638569
+R2
+R3
+R0
+Z56 8C:/Users/DHL/Desktop/cpu550-2018Fall_Verilog_restored/mux.vhd
+Z57 FC:/Users/DHL/Desktop/cpu550-2018Fall_Verilog_restored/mux.vhd
+l0
+L8
+Vd@N^V[bRMcoD[ijJfVjjS3
+!s100 KIIXM7b7OhDXzb@OWFznR1
+R6
+31
+R7
+!i10b 1
+R8
+Z58 !s90 -reportprogress|300|-93|-work|work|C:/Users/DHL/Desktop/cpu550-2018Fall_Verilog_restored/mux.vhd|
+Z59 !s107 C:/Users/DHL/Desktop/cpu550-2018Fall_Verilog_restored/mux.vhd|
+!i113 1
+R11
+R12
+Astructure
+R2
+R3
+DEx4 work 3 mux 0 22 d@N^V[bRMcoD[ijJfVjjS3
+l16
+L15
+VLPC<84B7Wjl5[_n^FAT@;1
+!s100 XYj]]]PCo=?@D]z3CDUOB3
+R6
+31
+R7
+!i10b 1
+R8
+R58
+R59
+!i113 1
+R11
+R12
+Epll
+Z60 w1542214544
+R2
+R3
+R0
+Z61 8C:/Users/DHL/Desktop/cpu550-2018Fall_Verilog_restored/pll.vhd
+Z62 FC:/Users/DHL/Desktop/cpu550-2018Fall_Verilog_restored/pll.vhd
+l0
+L42
+V[>3Fjfc;64oif=0:ZaZ9f3
+!s100 ;3VW;k?_[aJ0F9TI[MU9l0
+R6
+31
+R16
+!i10b 1
+R17
+Z63 !s90 -reportprogress|300|-93|-work|work|C:/Users/DHL/Desktop/cpu550-2018Fall_Verilog_restored/pll.vhd|
+Z64 !s107 C:/Users/DHL/Desktop/cpu550-2018Fall_Verilog_restored/pll.vhd|
+!i113 1
+R11
+R12
+Asyn
+R2
+R3
+DEx4 work 3 pll 0 22 [>3Fjfc;64oif=0:ZaZ9f3
+l125
+L51
+Vj>EQfeiT3<@G2B;A4KUag2
+!s100 <:oiC37AWGF>I<a=N3ADM1
+R6
+31
+R16
+!i10b 1
+R17
+R63
+R64
+!i113 1
+R11
+R12
+vpll_altpll
+R23
+!i10b 1
+!s100 L4baeGiUN@4IJRVJ::CX<0
+Im6<3XlmDnjfA`@GXnGNc80
+R27
+R0
+w1542214566
+8C:/Users/DHL/Desktop/cpu550-2018Fall_Verilog_restored/db/pll_altpll.v
+FC:/Users/DHL/Desktop/cpu550-2018Fall_Verilog_restored/db/pll_altpll.v
+L0 29
+R29
+r1
+!s85 0
+31
+R24
+!s107 C:/Users/DHL/Desktop/cpu550-2018Fall_Verilog_restored/db/pll_altpll.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/DHL/Desktop/cpu550-2018Fall_Verilog_restored/db|C:/Users/DHL/Desktop/cpu550-2018Fall_Verilog_restored/db/pll_altpll.v|
+!i113 1
+R30
+!s92 -vlog01compat -work work +incdir+C:/Users/DHL/Desktop/cpu550-2018Fall_Verilog_restored/db
+R32
+vprocessor
+R23
+!i10b 1
+!s100 kYL_jHkcILb>`F]=]AeZ61
+I`gAOGZcbMLIcL<Wg5Q`fi2
+R27
+R0
+w1542217632
+8C:/Users/DHL/Desktop/cpu550-2018Fall_Verilog_restored/processor.v
+FC:/Users/DHL/Desktop/cpu550-2018Fall_Verilog_restored/processor.v
+L0 1
+R29
+r1
+!s85 0
+31
+!s108 1542217737.000000
+!s107 C:/Users/DHL/Desktop/cpu550-2018Fall_Verilog_restored/processor.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/DHL/Desktop/cpu550-2018Fall_Verilog_restored|C:/Users/DHL/Desktop/cpu550-2018Fall_Verilog_restored/processor.v|
+!i113 1
+R30
+R31
+R32
+Eps2
+Z65 w1476638453
+R49
+R50
+R2
+R3
+R0
+Z66 8C:/Users/DHL/Desktop/cpu550-2018Fall_Verilog_restored/ps2.vhd
+Z67 FC:/Users/DHL/Desktop/cpu550-2018Fall_Verilog_restored/ps2.vhd
+l0
+L9
+VFj^ne_X@k_HaIW5IAYj0a0
+!s100 Z3jPgg`YoXI=d<QR8;mD82
+R6
+31
+R16
+!i10b 1
+R17
+Z68 !s90 -reportprogress|300|-93|-work|work|C:/Users/DHL/Desktop/cpu550-2018Fall_Verilog_restored/ps2.vhd|
+Z69 !s107 C:/Users/DHL/Desktop/cpu550-2018Fall_Verilog_restored/ps2.vhd|
+!i113 1
+R11
+R12
+Aa
+R49
+R50
+R2
+R3
+DEx4 work 3 ps2 0 22 Fj^ne_X@k_HaIW5IAYj0a0
+l81
+L17
+VS_5aj[h[0OO@cSOO@EA5P2
+!s100 =bh6OI`ODmGmEC;Rc17Kh3
+R6
+31
+R16
+!i10b 1
+R17
+R68
+R69
+!i113 1
+R11
+R12
+Ereg0_2port
+Z70 w1476638628
+Z71 DPx4 ieee 16 vital_primitives 0 22 G>kiXP8Q9dRClKfK1Zn7j1
+Z72 DPx6 altera 11 dffeas_pack 0 22 Dg`GWTC`^Q8GNSMPeo22;3
+Z73 DPx4 ieee 12 vital_timing 0 22 J>EBealN09f8GzldA[z2>3
+Z74 DPx6 altera 28 altera_primitives_components 0 22 _LNC5n6B?5VN@W;M4Dg@k1
+R2
+R3
+R0
+Z75 8C:/Users/DHL/Desktop/cpu550-2018Fall_Verilog_restored/reg0_2port.vhd
+Z76 FC:/Users/DHL/Desktop/cpu550-2018Fall_Verilog_restored/reg0_2port.vhd
+l0
+L9
+VcPaLCHnP:@KM3^h19`Jc03
+!s100 WA12HBS2dW2WW:`@gKZZ<1
+R6
+31
+R7
+!i10b 1
+R8
+Z77 !s90 -reportprogress|300|-93|-work|work|C:/Users/DHL/Desktop/cpu550-2018Fall_Verilog_restored/reg0_2port.vhd|
+Z78 !s107 C:/Users/DHL/Desktop/cpu550-2018Fall_Verilog_restored/reg0_2port.vhd|
+!i113 1
+R11
+R12
+Astructure
+R71
+R72
+R73
+R74
+R2
+R3
+DEx4 work 10 reg0_2port 0 22 cPaLCHnP:@KM3^h19`Jc03
+l22
+L15
+VHJQ_PT^I_:nnldYSZO[J42
+!s100 TJ_PhXze107[5hKgYeckZ0
+R6
+31
+R7
+!i10b 1
+R8
+R77
+R78
+!i113 1
+R11
+R12
+Ereg_2port
+Z79 w1540853526
+R71
+R72
+R73
+R74
+R2
+R3
+R0
+Z80 8C:/Users/DHL/Desktop/cpu550-2018Fall_Verilog_restored/reg_2port.vhd
+Z81 FC:/Users/DHL/Desktop/cpu550-2018Fall_Verilog_restored/reg_2port.vhd
+l0
+L9
+VKUAl7nGg?7m`;3N;N1:=n1
+!s100 =mc74:dzzhHKRPJW32SGF3
+R6
+31
+R7
+!i10b 1
+R8
+Z82 !s90 -reportprogress|300|-93|-work|work|C:/Users/DHL/Desktop/cpu550-2018Fall_Verilog_restored/reg_2port.vhd|
+Z83 !s107 C:/Users/DHL/Desktop/cpu550-2018Fall_Verilog_restored/reg_2port.vhd|
+!i113 1
+R11
+R12
+Astructure
+R71
+R72
+R73
+R74
+R2
+R3
+DEx4 work 9 reg_2port 0 22 KUAl7nGg?7m`;3N;N1:=n1
+l30
+L16
+V^N6Sa?Nc`Mkm1hac2G2VX1
+!s100 Ln=9d_2emn2mo8@C;VJPo3
+R6
+31
+R7
+!i10b 1
+R8
+R82
+R83
+!i113 1
+R11
+R12
+Ereg_new
+Z84 w1540853445
+R71
+R72
+R73
+R74
+R2
+R3
+R0
+Z85 8C:/Users/DHL/Desktop/cpu550-2018Fall_Verilog_restored/reg_new.vhd
+Z86 FC:/Users/DHL/Desktop/cpu550-2018Fall_Verilog_restored/reg_new.vhd
+l0
+L9
+V_@C<^EJ?Ti6R>gaU_Yf=^2
+!s100 KlleEX9z385MFbTU5MGZS3
+R6
+31
+R7
+!i10b 1
+R8
+Z87 !s90 -reportprogress|300|-93|-work|work|C:/Users/DHL/Desktop/cpu550-2018Fall_Verilog_restored/reg_new.vhd|
+Z88 !s107 C:/Users/DHL/Desktop/cpu550-2018Fall_Verilog_restored/reg_new.vhd|
+!i113 1
+R11
+R12
+Astructure
+R71
+R72
+R73
+R74
+R2
+R3
+DEx4 work 7 reg_new 0 22 _@C<^EJ?Ti6R>gaU_Yf=^2
+l26
+L16
+Vo1IH5MV;IE0=c^VYk<94N2
+!s100 bejhMUZTLgX?CW8?EhcFn3
+R6
+31
+R7
+!i10b 1
+R8
+R87
+R88
+!i113 1
+R11
+R12
+Eregfile
+Z89 w1476638653
+R2
+R3
+R0
+Z90 8C:/Users/DHL/Desktop/cpu550-2018Fall_Verilog_restored/regfile.vhd
+Z91 FC:/Users/DHL/Desktop/cpu550-2018Fall_Verilog_restored/regfile.vhd
+l0
+L4
+V>jKLoaBkNT[<YOQU0N?DW3
+!s100 Sl^Z3R<li093NZb7=L1e00
+R6
+31
+R16
+!i10b 1
+R17
+Z92 !s90 -reportprogress|300|-93|-work|work|C:/Users/DHL/Desktop/cpu550-2018Fall_Verilog_restored/regfile.vhd|
+Z93 !s107 C:/Users/DHL/Desktop/cpu550-2018Fall_Verilog_restored/regfile.vhd|
+!i113 1
+R11
+R12
+Astructure
+R2
+R3
+DEx4 work 7 regfile 0 22 >jKLoaBkNT[<YOQU0N?DW3
+l28
+L11
+VF;a<@9^cF]HT6Fz1=84bH2
+!s100 Ac`fOI^O9YjZhm@MH9lW62
+R6
+31
+R16
+!i10b 1
+R17
+R92
+R93
+!i113 1
+R11
+R12
+Eshifter
+Z94 w1476638386
+R2
+R3
+R0
+Z95 8C:/Users/DHL/Desktop/cpu550-2018Fall_Verilog_restored/shifter.vhd
+Z96 FC:/Users/DHL/Desktop/cpu550-2018Fall_Verilog_restored/shifter.vhd
+l0
+L8
+VAgzXYOO7j4<al7>?M4]T^0
+!s100 CYAOzm?6<EPhjH@R`N11_0
+R6
+31
+R16
+!i10b 1
+R17
+Z97 !s90 -reportprogress|300|-93|-work|work|C:/Users/DHL/Desktop/cpu550-2018Fall_Verilog_restored/shifter.vhd|
+Z98 !s107 C:/Users/DHL/Desktop/cpu550-2018Fall_Verilog_restored/shifter.vhd|
+!i113 1
+R11
+R12
+Astructure
+R2
+R3
+DEx4 work 7 shifter 0 22 AgzXYOO7j4<al7>?M4]T^0
+l26
+L15
+VZQ<BkXH1zO==Y5bc4Ak`@3
+!s100 DcM]Y8a_HYbaUC=fDd@1O1
+R6
+31
+R16
+!i10b 1
+R17
+R97
+R98
+!i113 1
+R11
+R12
+vsignExtend
+R23
+!i10b 1
+!s100 RVc58`94EH]HZ2V[^[^PV0
+IHOQ]m5j>MB37mIiB]h]UN1
+R27
+R0
+R28
+8C:/Users/DHL/Desktop/cpu550-2018Fall_Verilog_restored/signExtend.v
+FC:/Users/DHL/Desktop/cpu550-2018Fall_Verilog_restored/signExtend.v
+L0 1
+R29
+r1
+!s85 0
+31
+R24
+!s107 C:/Users/DHL/Desktop/cpu550-2018Fall_Verilog_restored/signExtend.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/DHL/Desktop/cpu550-2018Fall_Verilog_restored|C:/Users/DHL/Desktop/cpu550-2018Fall_Verilog_restored/signExtend.v|
+!i113 1
+R30
+R31
+R32
+nsign@extend
+vsignExtend12
+R23
+!i10b 1
+!s100 ]JB;FX>PDWLCLcjV^cQlA3
+IORB0n32]LJYPOQj_zWmd91
+R27
+R0
+w1542217437
+8C:/Users/DHL/Desktop/cpu550-2018Fall_Verilog_restored/signExtend12.v
+FC:/Users/DHL/Desktop/cpu550-2018Fall_Verilog_restored/signExtend12.v
+L0 1
+R29
+r1
+!s85 0
+31
+R24
+!s107 C:/Users/DHL/Desktop/cpu550-2018Fall_Verilog_restored/signExtend12.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/DHL/Desktop/cpu550-2018Fall_Verilog_restored|C:/Users/DHL/Desktop/cpu550-2018Fall_Verilog_restored/signExtend12.v|
+!i113 1
+R30
+R31
+R32
+nsign@extend12
+Eskeleton
+Z99 w1542214355
+R49
+R2
+R3
+R0
+Z100 8C:/Users/DHL/Desktop/cpu550-2018Fall_Verilog_restored/skeleton.vhd
+Z101 FC:/Users/DHL/Desktop/cpu550-2018Fall_Verilog_restored/skeleton.vhd
+l0
+L9
+VjA:I=X_bKOz>n=^CF@j_i3
+!s100 Fn4e@FQ]WN`SdLP[k<TM71
+R6
+31
+R16
+!i10b 1
+R17
+Z102 !s90 -reportprogress|300|-93|-work|work|C:/Users/DHL/Desktop/cpu550-2018Fall_Verilog_restored/skeleton.vhd|
+Z103 !s107 C:/Users/DHL/Desktop/cpu550-2018Fall_Verilog_restored/skeleton.vhd|
+!i113 1
+R11
+R12
+Astructure
+R49
+R2
+R3
+DEx4 work 8 skeleton 0 22 jA:I=X_bKOz>n=^CF@j_i3
+l42
+L15
+VzJ<za5_;b_zFLOYl3Tb>:0
+!s100 eGP3=_@I@5J5eYSF]0Y=:1
+R6
+31
+R16
+!i10b 1
+R17
+R102
+R103
+!i113 1
+R11
+R12

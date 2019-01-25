@@ -1,0 +1,166 @@
+# -------------------------------------------------------------------------- #
+#
+# Copyright (C) 1991-2009 Altera Corporation
+# Your use of Altera Corporation's design tools, logic functions 
+# and other software and tools, and its AMPP partner logic 
+# functions, and any output files from any of the foregoing 
+# (including device programming or simulation files), and any 
+# associated documentation or information are expressly subject 
+# to the terms and conditions of the Altera Program License 
+# Subscription Agreement, Altera MegaCore Function License 
+# Agreement, or other applicable license agreement, including, 
+# without limitation, that your use is for the sole purpose of 
+# programming logic devices manufactured by Altera and sold by 
+# Altera or its authorized distributors.  Please refer to the 
+# applicable agreement for further details.
+#
+# -------------------------------------------------------------------------- #
+#
+# Quartus II
+# Version 9.1 Build 222 10/21/2009 SJ Web Edition
+# Date created = 22:01:22  December 26, 2009
+#
+# -------------------------------------------------------------------------- #
+#
+# Notes:
+#
+# 1) The default values for assignments are stored in the file:
+#		skeleton_assignment_defaults.qdf
+#    If this file doesn't exist, see file:
+#		assignment_defaults.qdf
+#
+# 2) Altera recommends that you do not modify this file. This
+#    file is updated automatically by the Quartus II software
+#    and any changes you make may be lost or overwritten.
+#
+# -------------------------------------------------------------------------- #
+
+
+set_global_assignment -name FAMILY "Cyclone IV E"
+set_global_assignment -name DEVICE EP4CE115F29C7
+set_global_assignment -name TOP_LEVEL_ENTITY skeleton
+set_global_assignment -name ORIGINAL_QUARTUS_VERSION 9.1
+set_global_assignment -name PROJECT_CREATION_TIME_DATE "22:01:22  DECEMBER 26, 2009"
+set_global_assignment -name LAST_QUARTUS_VERSION "18.0.0 Lite Edition"
+set_global_assignment -name USE_GENERATED_PHYSICAL_CONSTRAINTS OFF -section_id eda_blast_fpga
+set_global_assignment -name MIN_CORE_JUNCTION_TEMP 0
+set_global_assignment -name MAX_CORE_JUNCTION_TEMP 85
+set_global_assignment -name STRATIX_DEVICE_IO_STANDARD "3.3-V LVTTL"
+set_location_assignment PIN_L6 -to lcd_blon
+set_location_assignment PIN_M2 -to lcd_rs
+set_location_assignment PIN_L4 -to lcd_en
+set_location_assignment PIN_L5 -to lcd_on
+set_location_assignment PIN_M1 -to lcd_rw
+set_location_assignment PIN_Y2 -to inclock
+set_location_assignment PIN_H5 -to ps2_data
+set_location_assignment PIN_G6 -to ps2_clock
+set_location_assignment PIN_E21 -to leds[0]
+set_location_assignment PIN_E22 -to leds[1]
+set_location_assignment PIN_E25 -to leds[2]
+set_location_assignment PIN_E24 -to leds[3]
+set_location_assignment PIN_H21 -to leds[4]
+set_location_assignment PIN_G20 -to leds[5]
+set_location_assignment PIN_G22 -to leds[6]
+set_location_assignment PIN_G21 -to leds[7]
+set_location_assignment PIN_M23 -to resetn
+set_location_assignment PIN_L3 -to lcd_data[0]
+set_location_assignment PIN_L1 -to lcd_data[1]
+set_location_assignment PIN_L2 -to lcd_data[2]
+set_location_assignment PIN_K7 -to lcd_data[3]
+set_location_assignment PIN_K1 -to lcd_data[4]
+set_location_assignment PIN_K2 -to lcd_data[5]
+set_location_assignment PIN_M3 -to lcd_data[6]
+set_location_assignment PIN_M5 -to lcd_data[7]
+set_global_assignment -name EDA_SIMULATION_TOOL "ModelSim-Altera (Verilog)"
+set_global_assignment -name EDA_OUTPUT_DATA_FORMAT "VERILOG HDL" -section_id eda_simulation
+set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
+set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
+set_global_assignment -name LL_ROOT_REGION ON -section_id "Root Region"
+set_global_assignment -name LL_MEMBER_STATE LOCKED -section_id "Root Region"
+set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
+set_global_assignment -name POWER_PRESET_COOLING_SOLUTION "23 MM HEAT SINK WITH 200 LFPM AIRFLOW"
+set_global_assignment -name POWER_BOARD_THERMAL_MODEL "NONE (CONSERVATIVE)"
+set_global_assignment -name EDA_TIME_SCALE "1 ps" -section_id eda_simulation
+set_location_assignment PIN_AB28 -to sw0
+set_location_assignment PIN_G18 -to Hex00[0]
+set_location_assignment PIN_F22 -to Hex00[1]
+set_location_assignment PIN_E17 -to Hex00[2]
+set_location_assignment PIN_L26 -to Hex00[3]
+set_location_assignment PIN_L25 -to Hex00[4]
+set_location_assignment PIN_J22 -to Hex00[5]
+set_location_assignment PIN_H22 -to Hex00[6]
+set_location_assignment PIN_M24 -to Hex01[0]
+set_location_assignment PIN_Y22 -to Hex01[1]
+set_location_assignment PIN_W21 -to Hex01[2]
+set_location_assignment PIN_W22 -to Hex01[3]
+set_location_assignment PIN_W25 -to Hex01[4]
+set_location_assignment PIN_U23 -to Hex01[5]
+set_location_assignment PIN_U24 -to Hex01[6]
+set_location_assignment PIN_AA25 -to Hex02[0]
+set_location_assignment PIN_AA26 -to Hex02[1]
+set_location_assignment PIN_Y25 -to Hex02[2]
+set_location_assignment PIN_W26 -to Hex02[3]
+set_location_assignment PIN_Y26 -to Hex02[4]
+set_location_assignment PIN_W27 -to Hex02[5]
+set_location_assignment PIN_W28 -to Hex02[6]
+set_location_assignment PIN_V21 -to Hex03[0]
+set_location_assignment PIN_U21 -to Hex03[1]
+set_location_assignment PIN_AB20 -to Hex03[2]
+set_location_assignment PIN_AA21 -to Hex03[3]
+set_location_assignment PIN_AD24 -to Hex03[4]
+set_location_assignment PIN_AF23 -to Hex03[5]
+set_location_assignment PIN_Y19 -to Hex03[6]
+set_location_assignment PIN_AC28 -to sw1
+set_location_assignment PIN_AE18 -to Hex04[6]
+set_location_assignment PIN_AD17 -to Hex07[0]
+set_location_assignment PIN_AE17 -to Hex07[1]
+set_location_assignment PIN_AG17 -to Hex07[2]
+set_location_assignment PIN_AH17 -to Hex07[3]
+set_location_assignment PIN_AF17 -to Hex07[4]
+set_location_assignment PIN_AG18 -to Hex07[5]
+set_location_assignment PIN_AA14 -to Hex07[6]
+set_location_assignment PIN_AA17 -to Hex06[0]
+set_location_assignment PIN_AB16 -to Hex06[1]
+set_location_assignment PIN_AA16 -to Hex06[2]
+set_location_assignment PIN_AB17 -to Hex06[3]
+set_location_assignment PIN_AB15 -to Hex06[4]
+set_location_assignment PIN_AA15 -to Hex06[5]
+set_location_assignment PIN_AC17 -to Hex06[6]
+set_location_assignment PIN_AD18 -to Hex05[0]
+set_location_assignment PIN_AC18 -to Hex05[1]
+set_location_assignment PIN_AB18 -to Hex05[2]
+set_location_assignment PIN_AH19 -to Hex05[3]
+set_location_assignment PIN_AG19 -to Hex05[4]
+set_location_assignment PIN_AF18 -to Hex05[5]
+set_location_assignment PIN_AH18 -to Hex05[6]
+set_location_assignment PIN_AB19 -to Hex04[0]
+set_location_assignment PIN_AA19 -to Hex04[1]
+set_location_assignment PIN_AG21 -to Hex04[2]
+set_location_assignment PIN_AH21 -to Hex04[3]
+set_location_assignment PIN_AE19 -to Hex04[4]
+set_location_assignment PIN_AF19 -to Hex04[5]
+set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
+set_global_assignment -name INCREMENTAL_VECTOR_INPUT_SOURCE testGiveMeN_unpipelined.vwf
+set_global_assignment -name VERILOG_FILE processor.v
+set_global_assignment -name VERILOG_FILE control.v
+set_global_assignment -name VHDL_FILE alu.vhd
+set_global_assignment -name VHDL_FILE decoder5to32.vhd
+set_global_assignment -name VHDL_FILE dmem.vhd
+set_global_assignment -name VHDL_FILE imem.vhd
+set_global_assignment -name VHDL_FILE lcd.vhd
+set_global_assignment -name VHDL_FILE ps2.vhd
+set_global_assignment -name VHDL_FILE skeleton.vhd
+set_global_assignment -name VHDL_FILE regfile.vhd
+set_global_assignment -name VHDL_FILE shifter.vhd
+set_global_assignment -name VECTOR_WAVEFORM_FILE testGiveMeN_unpipelined.vwf
+set_global_assignment -name QIP_FILE pll.qip
+set_global_assignment -name VHDL_FILE adder_rc.vhd
+set_global_assignment -name VHDL_FILE adder_cs.vhd
+set_global_assignment -name VHDL_FILE mux.vhd
+set_global_assignment -name VHDL_FILE reg_2port.vhd
+set_global_assignment -name VHDL_FILE reg0_2port.vhd
+set_global_assignment -name VHDL_FILE reg_new.vhd
+set_global_assignment -name VERILOG_FILE signExtend.v
+set_global_assignment -name VERILOG_FILE signExtend12.v
+set_global_assignment -name VERILOG_FILE displayPC.v
+set_global_assignment -name VERILOG_FILE InsCounter.v
